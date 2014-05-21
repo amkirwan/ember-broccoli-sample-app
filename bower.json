@@ -1,0 +1,28 @@
+{
+  "name": "ember-broccoli-sample-app",
+  "version": "0.0.0",
+  "authors": [
+    "Anthony Kirwan <amkirwan@gmail.com>"
+  ],
+  "description": "sample app using ember and broccoli for build",
+  "keywords": [
+    "authorization",
+    "auth",
+    "token",
+    "ember"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.5.1",
+    "ember-data": "1.0.0-beta.7",
+    "ember-resolver": "git://github.com/stefanpenner/ember-jj-abrams-resolver.git#9805033c178e7f857f801359664adb599444b430",
+    "ic-ajax": "~1.0.4"
+  }
+}
